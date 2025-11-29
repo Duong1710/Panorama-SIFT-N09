@@ -100,5 +100,6 @@ Mục tiêu chính của dự án là giúp sinh viên:
 * **Tự động crop** để loại bỏ phần đen sau khi ghép.
 * Xây dựng pipeline panorama tương tự các hệ thống thực tế như Google Photos, Street View hoặc xử lý ảnh 360°.
 
-Dự án là sự kết hợp giữa lý thuyết và thực hành trong môn **Xử lý ảnh số**, giúp sinh viên hiểu bản chất đồng thời có khả năng tự triển khai một hệ thống ghép ảnh hoàn chỉnh.
+Dự án là sự kết hợp giữa lý thuyết và thực hành trong môn **Xử lý ảnh**, giúp sinh viên hiểu bản chất đồng thời có khả năng tự triển khai một hệ thống ghép ảnh hoàn chỉnh.
+
 
