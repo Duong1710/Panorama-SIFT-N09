@@ -1,4 +1,4 @@
-# Panorama-SIFT-N09
+# PANORAMA SIFT N09
 
 Dự án này bao gồm một Jupyter Notebook, một thư mục chứa ảnh minh họa, cùng với hai tệp bổ sung: `slideNoiDung` (phục vụ thuyết trình) và `requirements.txt` (liệt kê các thư viện cần cài đặt). 
 ---
@@ -24,12 +24,24 @@ project/
 │
 ├── Best-version.ipynb       # Notebook chính
 ├── pictures/                # Thư mục chứa ảnh của dự án
-│     ├── img1.jpg
-│     ├── img2.png
+│     ├── img_left.jpg
+│     ├── img_middle.png
 │     └── ...
 ├── slideNoiDung             # File bài thuyết trình
 ├── requirements.txt         # Các thư viện cần thiết
 └── README.md                # Tài liệu mô tả dự án
+```
+
+---
+
+## 📦 Nội dung của `requirements.txt`
+
+Dự án chỉ dùng ba thư viện sau, vì vậy file sẽ gồm:
+
+```
+opencv-python
+numpy
+matplotlib
 ```
 
 ---
@@ -69,20 +81,14 @@ File dùng để trình bày, không ảnh hưởng đến quá trình chạy m�
 
 ## 🧠 Mục tiêu của dự án
 
-Mục tiêu chính là giúp sinh viên:
+Mục tiêu chính của dự án là giúp sinh viên:
 
-Hiểu và ứng dụng SIFT để phát hiện và mô tả điểm đặc trưng.
+* Hiểu và ứng dụng **SIFT** để phát hiện và mô tả điểm đặc trưng.
+* Sử dụng **BFMatcher + Lowe Ratio Test** để tìm các cặp điểm tương ứng giữa hai ảnh.
+* Ước lượng **Homography** bằng thuật toán **RANSAC**.
+* Thực hiện **warpPerspective** để đưa ảnh về cùng hệ tọa độ.
+* Ghép ảnh bằng **feather blending** giúp giảm seam và làm ảnh mượt.
+* **Tự động crop** để loại bỏ phần đen sau khi ghép.
+* Xây dựng pipeline panorama tương tự các hệ thống thực tế như Google Photos, Street View hoặc xử lý ảnh 360°.
 
-Sử dụng BFMatcher + Lowe Ratio Test để tìm các cặp điểm tương ứng giữa hai ảnh.
-
-Ước lượng phép biến đổi hình học (Homography) bằng RANSAC.
-
-Thực hiện warpPerspective để biến đổi ảnh sang cùng hệ tọa độ.
-
-Ghép ảnh bằng feather blending, giảm seam, làm ảnh mượt mà.
-
-Tự động loại bỏ phần đen bằng auto crop.
-
-Xây dựng pipeline panorama giống các hệ thống thực tế: Google Photos, Street View, ảnh 360°…
-
-Dự án là sự kết hợp của kiến thức lý thuyết và thực hành trong môn Xử lý ảnh số.
+Dự án là sự kết hợp giữa lý thuyết và thực hành trong môn **Xử lý ảnh số**, giúp sinh viên hiểu bản chất đồng thời có khả năng tự triển khai một hệ thống ghép ảnh hoàn chỉnh.
