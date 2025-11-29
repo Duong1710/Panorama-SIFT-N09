@@ -1,7 +1,16 @@
-# PANORAMA SIFT N09
+# Bài tập lớn chủ đề 5: Ghép ảnh Panorama 
 
-Dự án này bao gồm một Jupyter Notebook, một thư mục chứa ảnh minh họa, cùng với hai tệp bổ sung: `slideNoiDung` (phục vụ thuyết trình) và `requirements.txt` (liệt kê các thư viện cần cài đặt). 
+Dự án này là sản phẩm của nhóm 09 lớp 02 môn XLA - thầy Phạm Hoàng Việt 
+
 ---
+
+## 👥 Thành viên 
+
+| Họ và tên          | Mã sinh viên | 
+|--------------------|--------------|
+| Phạm Hải Dương       | B22DCCN169   | 
+| Dương Văn Thuận         | B22DCCN841   | 
+
 
 ## 📝 Giới thiệu
 
@@ -92,3 +101,4 @@ Mục tiêu chính của dự án là giúp sinh viên:
 * Xây dựng pipeline panorama tương tự các hệ thống thực tế như Google Photos, Street View hoặc xử lý ảnh 360°.
 
 Dự án là sự kết hợp giữa lý thuyết và thực hành trong môn **Xử lý ảnh số**, giúp sinh viên hiểu bản chất đồng thời có khả năng tự triển khai một hệ thống ghép ảnh hoàn chỉnh.
+
