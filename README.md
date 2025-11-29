@@ -84,7 +84,9 @@ Giữ nguyên cấu trúc thư mục để tránh lỗi đường dẫn trong no
 ## 🎤 File `slideNoiDung`
 
 Đây là tài liệu thuyết trình của nhóm, mô tả nội dung chính, lí thuyết liên quan đến dự án "Tạo ảnh Panorama bằng SIFT". 
+
 Ngoài ra trong file còn **giải thích code từng cell trong file Best-version.ipynb** rất hữu dụng.
+
 File dùng để trình bày, không ảnh hưởng đến quá trình chạy mã nguồn. 
 
 ---
@@ -102,6 +104,7 @@ Mục tiêu chính của dự án là giúp sinh viên:
 * Xây dựng pipeline panorama tương tự các hệ thống thực tế như Google Photos, Street View hoặc xử lý ảnh 360°.
 
 Dự án là sự kết hợp giữa lý thuyết và thực hành trong môn **Xử lý ảnh**, giúp sinh viên hiểu bản chất đồng thời có khả năng tự triển khai một hệ thống ghép ảnh hoàn chỉnh.
+
 
 
 
